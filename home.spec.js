@@ -10,5 +10,6 @@ test('browsing site', async () => {
     await expect(page).toHaveTitle(pagetitle)
     console.log(pagetitle);
     console.log("This is SADIQ BASHA")
+    console.log("testing git");
     
 })
