@@ -9,5 +9,6 @@ test('browsing site', async () => {
     const pagetitle = await page.title();
     await expect(page).toHaveTitle(pagetitle)
     console.log(pagetitle);
+    console.log("This is SADIQ BASHA")
     
 })
